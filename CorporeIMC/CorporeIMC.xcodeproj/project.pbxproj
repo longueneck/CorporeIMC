@@ -15,6 +15,7 @@
 		63805B0129817A6B00DD584E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63805B0029817A6B00DD584E /* Assets.xcassets */; };
 		63805B0429817A6B00DD584E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63805B0229817A6B00DD584E /* LaunchScreen.storyboard */; };
 		63805B0C29819B4300DD584E /* humano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63805B0B29819B4300DD584E /* humano.swift */; };
+		63F60908298AF588000952D3 /* IMCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F60907298AF588000952D3 /* IMCController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		63805B0329817A6B00DD584E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63805B0529817A6B00DD584E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63805B0B29819B4300DD584E /* humano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = humano.swift; sourceTree = "<group>"; };
+		63F60907298AF588000952D3 /* IMCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMCController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		63805AF629817A6900DD584E /* CorporeIMC */ = {
 			isa = PBXGroup;
 			children = (
+				63F60907298AF588000952D3 /* IMCController.swift */,
 				63805AF729817A6900DD584E /* AppDelegate.swift */,
 				63805AF929817A6900DD584E /* SceneDelegate.swift */,
 				63805AFB29817A6900DD584E /* ViewController.swift */,
@@ -147,6 +150,7 @@
 				63805AFC29817A6900DD584E /* ViewController.swift in Sources */,
 				63805AF829817A6900DD584E /* AppDelegate.swift in Sources */,
 				63805AFA29817A6900DD584E /* SceneDelegate.swift in Sources */,
+				63F60908298AF588000952D3 /* IMCController.swift in Sources */,
 				63805B0C29819B4300DD584E /* humano.swift in Sources */,
 				634517FD298AAB7600A8E22B /* SegmentControl_Class.swift in Sources */,
 			);

@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             
             switch contaMale {
             case 17.9...18.9:
-                resultadoMale = "Magresa"
+                resultadoMale = "Magreza"
                 images.image = UIImage(named: "magreza")
             case 19...24.9:
                 resultadoMale = "Peso Ideal"
@@ -79,7 +79,7 @@ class ViewController: UIViewController {
             
             switch contaFemale {
             case 15...17.9:
-                resultadoFemale = "Magresa"
+                resultadoFemale = "Magreza"
                 images.image = UIImage(named: "magreza")
             case 18...24.4:
                 resultadoFemale = "Peso Ideal"
