@@ -19,7 +19,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var SelectGender: UISegmentedControl!
     
     @IBOutlet weak var images: UIImageView!
-    var humano: Humano?
+    
+    var humano: Humano? //Composicao e quando se chama uma classe (que esta em outro arquivo)
     
     override func viewDidLoad() {
         let selectedTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor(red: 67/255, green: 150/255, blue: 213/255, alpha: 1.0) ]

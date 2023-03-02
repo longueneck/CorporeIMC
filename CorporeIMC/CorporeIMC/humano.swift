@@ -1,10 +1,12 @@
 import Foundation
 
 class Humano {
+    
+    //Atributos
   var altura: Double
   var peso: Double
   var genero: String
-  
+    // Inicializa os atributos
   init(altura: Double, peso: Double, genero: String) {
     self.altura = altura
     self.peso = peso
